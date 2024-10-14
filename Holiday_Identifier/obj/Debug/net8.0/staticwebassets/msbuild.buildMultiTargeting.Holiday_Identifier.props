@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Holiday_Identifier.props" />
+</Project>

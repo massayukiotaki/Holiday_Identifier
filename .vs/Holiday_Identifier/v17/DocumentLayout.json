@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gabriel.lara\\Documents\\Holiday_Identifier\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB5BAE5-9D5B-4E42-93C3-DD8F45290D48}|Holiday_Identifier\\Holiday_Identifier.csproj|c:\\users\\gabriel.lara\\documents\\holiday_identifier\\holiday_identifier\\controllers\\holidayidentifiercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB5BAE5-9D5B-4E42-93C3-DD8F45290D48}|Holiday_Identifier\\Holiday_Identifier.csproj|solutionrelative:holiday_identifier\\controllers\\holidayidentifiercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB5BAE5-9D5B-4E42-93C3-DD8F45290D48}|Holiday_Identifier\\Holiday_Identifier.csproj|c:\\users\\gabriel.lara\\documents\\holiday_identifier\\holiday_identifier\\repositories\\interface\\iholidayrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB5BAE5-9D5B-4E42-93C3-DD8F45290D48}|Holiday_Identifier\\Holiday_Identifier.csproj|solutionrelative:holiday_identifier\\repositories\\interface\\iholidayrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB5BAE5-9D5B-4E42-93C3-DD8F45290D48}|Holiday_Identifier\\Holiday_Identifier.csproj|c:\\users\\gabriel.lara\\documents\\holiday_identifier\\holiday_identifier\\repositories\\interface\\holidayrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB5BAE5-9D5B-4E42-93C3-DD8F45290D48}|Holiday_Identifier\\Holiday_Identifier.csproj|solutionrelative:holiday_identifier\\repositories\\interface\\holidayrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB5BAE5-9D5B-4E42-93C3-DD8F45290D48}|Holiday_Identifier\\Holiday_Identifier.csproj|c:\\users\\gabriel.lara\\documents\\holiday_identifier\\holiday_identifier\\models\\holiday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB5BAE5-9D5B-4E42-93C3-DD8F45290D48}|Holiday_Identifier\\Holiday_Identifier.csproj|solutionrelative:holiday_identifier\\models\\holiday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB5BAE5-9D5B-4E42-93C3-DD8F45290D48}|Holiday_Identifier\\Holiday_Identifier.csproj|c:\\users\\gabriel.lara\\documents\\holiday_identifier\\holiday_identifier\\models\\dateinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB5BAE5-9D5B-4E42-93C3-DD8F45290D48}|Holiday_Identifier\\Holiday_Identifier.csproj|solutionrelative:holiday_identifier\\models\\dateinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB5BAE5-9D5B-4E42-93C3-DD8F45290D48}|Holiday_Identifier\\Holiday_Identifier.csproj|c:\\users\\gabriel.lara\\documents\\holiday_identifier\\holiday_identifier\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB5BAE5-9D5B-4E42-93C3-DD8F45290D48}|Holiday_Identifier\\Holiday_Identifier.csproj|solutionrelative:holiday_identifier\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB5BAE5-9D5B-4E42-93C3-DD8F45290D48}|Holiday_Identifier\\Holiday_Identifier.csproj|c:\\users\\gabriel.lara\\documents\\holiday_identifier\\holiday_identifier\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2FB5BAE5-9D5B-4E42-93C3-DD8F45290D48}|Holiday_Identifier\\Holiday_Identifier.csproj|solutionrelative:holiday_identifier\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB5BAE5-9D5B-4E42-93C3-DD8F45290D48}|Holiday_Identifier\\Holiday_Identifier.csproj|c:\\users\\gabriel.lara\\documents\\holiday_identifier\\holiday_identifier\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2FB5BAE5-9D5B-4E42-93C3-DD8F45290D48}|Holiday_Identifier\\Holiday_Identifier.csproj|solutionrelative:holiday_identifier\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\Documents\\Holiday_Identifier\\Holiday_Identifier\\Program.cs",
+              "RelativeDocumentMoniker": "Holiday_Identifier\\Program.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\Documents\\Holiday_Identifier\\Holiday_Identifier\\Program.cs",
+              "RelativeToolTip": "Holiday_Identifier\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T17:08:25.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IHolidayRepository.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\Documents\\Holiday_Identifier\\Holiday_Identifier\\Repositories\\Interface\\IHolidayRepository.cs",
+              "RelativeDocumentMoniker": "Holiday_Identifier\\Repositories\\Interface\\IHolidayRepository.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\Documents\\Holiday_Identifier\\Holiday_Identifier\\Repositories\\Interface\\IHolidayRepository.cs",
+              "RelativeToolTip": "Holiday_Identifier\\Repositories\\Interface\\IHolidayRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T18:10:36.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DateInfo.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\Documents\\Holiday_Identifier\\Holiday_Identifier\\Models\\DateInfo.cs",
+              "RelativeDocumentMoniker": "Holiday_Identifier\\Models\\DateInfo.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\Documents\\Holiday_Identifier\\Holiday_Identifier\\Models\\DateInfo.cs",
+              "RelativeToolTip": "Holiday_Identifier\\Models\\DateInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T17:54:38.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HolidayIdentifierController.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\Documents\\Holiday_Identifier\\Holiday_Identifier\\Controllers\\HolidayIdentifierController.cs",
+              "RelativeDocumentMoniker": "Holiday_Identifier\\Controllers\\HolidayIdentifierController.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\Documents\\Holiday_Identifier\\Holiday_Identifier\\Controllers\\HolidayIdentifierController.cs",
+              "RelativeToolTip": "Holiday_Identifier\\Controllers\\HolidayIdentifierController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T17:25:54.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HolidayRepository.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\Documents\\Holiday_Identifier\\Holiday_Identifier\\Repositories\\Interface\\HolidayRepository.cs",
+              "RelativeDocumentMoniker": "Holiday_Identifier\\Repositories\\Interface\\HolidayRepository.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\Documents\\Holiday_Identifier\\Holiday_Identifier\\Repositories\\Interface\\HolidayRepository.cs",
+              "RelativeToolTip": "Holiday_Identifier\\Repositories\\Interface\\HolidayRepository.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAgwIgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T11:54:07.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Holiday.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\Documents\\Holiday_Identifier\\Holiday_Identifier\\Models\\Holiday.cs",
+              "RelativeDocumentMoniker": "Holiday_Identifier\\Models\\Holiday.cs",
+              "ToolTip": "C:\\Users\\gabriel.lara\\Documents\\Holiday_Identifier\\Holiday_Identifier\\Models\\Holiday.cs",
+              "RelativeToolTip": "Holiday_Identifier\\Models\\Holiday.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T14:04:47.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\Documents\\Holiday_Identifier\\Holiday_Identifier\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Holiday_Identifier\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\gabriel.lara\\Documents\\Holiday_Identifier\\Holiday_Identifier\\appsettings.Development.json",
+              "RelativeToolTip": "Holiday_Identifier\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-08T16:10:12.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\gabriel.lara\\Documents\\Holiday_Identifier\\Holiday_Identifier\\appsettings.json",
+              "RelativeDocumentMoniker": "Holiday_Identifier\\appsettings.json",
+              "ToolTip": "C:\\Users\\gabriel.lara\\Documents\\Holiday_Identifier\\Holiday_Identifier\\appsettings.json",
+              "RelativeToolTip": "Holiday_Identifier\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-07T17:21:31.224Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
