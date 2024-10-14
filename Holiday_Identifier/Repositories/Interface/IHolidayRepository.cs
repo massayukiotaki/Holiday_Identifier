@@ -8,6 +8,8 @@ namespace Holiday_Identifier.Repositories.Interface
 
         List<Holiday> GetAllHolidays(int year);
 
-        bool UpdateHolidayDate(string holidayName, DateTime newDate);
+        bool UpdateHolidayRequest(string holidayName, DateTime newDate);
+
+        IEnumerable<Holiday> GetPagedHolidaysByYear(int year, int pageNumber, int pageSize);
     }
 }

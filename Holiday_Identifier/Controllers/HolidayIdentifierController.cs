@@ -15,27 +15,24 @@ namespace Holiday_Identifier.Controllers
             _holidayRepository = holidayRepository;
         }
 
-        [HttpPost]
-        public ActionResult<DateInfo> Post([FromBody] DateTime date)
+        [HttpPost("IdentifyDateInfo")]
+        public ActionResult<DateInfo> Post([FromBody] DateRequest request)
         {
-            var dateInfo = _holidayRepository.GetDateInfo(date);
+            var dateInfo = _holidayRepository.GetDateInfo(request.Date);
             return Ok(dateInfo);
         }
 
-        [HttpGet("GetaAllHolidaysByYear{year}")]
+        [HttpGet("GetaAllHolidaysByYear")]
         public ActionResult<List<Holiday>> GetHolidays(int year)
         {
             var holidays = _holidayRepository.GetAllHolidays(year);
             return Ok(holidays);
         }
-
-
-
        
         [HttpPut("UpdateHolidayDate")]
-        public IActionResult UpdateHolidayDate([FromBody] UpdateHolidayRequest request)
+        public IActionResult UpdateHolidayRequest([FromBody] UpdateHolidayRequest request)
         {
-            bool isUpdated = _holidayRepository.UpdateHolidayDate(request.HolidayName, request.NewDate);
+            bool isUpdated = _holidayRepository.UpdateHolidayRequest(request.HolidayName, request.NewDate);
 
             if (isUpdated)
             {
@@ -50,11 +47,18 @@ namespace Holiday_Identifier.Controllers
 
             return NotFound("Holiday not found.");
         }
-        
-        public class UpdateHolidayRequest
+
+        [HttpGet("GetPagedHolidaysByYear")]
+        public IActionResult GetPagedHolidaysByYear(int year, int pageNumber, int pageSize)
         {
-            public string HolidayName { get; set; }
-            public DateTime NewDate { get; set; }
+            var holidays = _holidayRepository.GetPagedHolidaysByYear(year, pageNumber, pageSize);
+
+            if (!holidays.Any())
+            {
+                return NotFound(new { Message = "Error! Holidays not found, check the year!"});
+            }
+
+            return Ok(holidays);
         }
     }
 

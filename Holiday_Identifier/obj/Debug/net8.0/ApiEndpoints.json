@@ -1,15 +1,67 @@
 [
   {
     "ContainingType": "Holiday_Identifier.Controllers.HolidayIdentifierController",
+    "Method": "GetHolidays",
+    "RelativePath": "api/HolidayIdentifier/GetaAllHolidaysByYear",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Holiday_Identifier.Models.Holiday, Holiday_Identifier, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Holiday_Identifier.Controllers.HolidayIdentifierController",
+    "Method": "GetPagedHolidaysByYear",
+    "RelativePath": "api/HolidayIdentifier/GetPagedHolidaysByYear",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Holiday_Identifier.Controllers.HolidayIdentifierController",
     "Method": "Post",
-    "RelativePath": "api/HolidayIdentifier",
+    "RelativePath": "api/HolidayIdentifier/IdentifyDateInfo",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "date",
-        "Type": "System.DateTime",
+        "Name": "request",
+        "Type": "Holiday_Identifier.Models.DateRequest",
         "IsRequired": true
       }
     ],
@@ -27,33 +79,7 @@
   },
   {
     "ContainingType": "Holiday_Identifier.Controllers.HolidayIdentifierController",
-    "Method": "GetHolidays",
-    "RelativePath": "api/HolidayIdentifier/GetaAllHolidaysByYear{year}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "year",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.List\u00601[[Holiday_Identifier.Models.Holiday, Holiday_Identifier, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "Holiday_Identifier.Controllers.HolidayIdentifierController",
-    "Method": "UpdateHolidayDate",
+    "Method": "UpdateHolidayRequest",
     "RelativePath": "api/HolidayIdentifier/UpdateHolidayDate",
     "HttpMethod": "PUT",
     "IsController": true,
@@ -61,7 +87,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "Holiday_Identifier.Controllers.HolidayIdentifierController\u002BUpdateHolidayRequest",
+        "Type": "Holiday_Identifier.Models.UpdateHolidayRequest",
         "IsRequired": true
       }
     ],

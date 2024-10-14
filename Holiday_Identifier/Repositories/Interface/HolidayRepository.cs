@@ -125,7 +125,7 @@ namespace Holiday_Identifier.Repositories.Interface
         }
 
         
-        public bool UpdateHolidayDate(string holidayName, DateTime newDate)
+        public bool UpdateHolidayRequest(string holidayName, DateTime newDate)
         {
             var holiday = _fixedHolidays.FirstOrDefault(h => h.Name.Equals(holidayName, StringComparison.OrdinalIgnoreCase));
             if (holiday != null)
@@ -135,6 +135,29 @@ namespace Holiday_Identifier.Repositories.Interface
                 return true; 
             }
             return false; 
+        }
+
+        public IEnumerable<Holiday> GetPagedHolidaysByYear(int year, int pageNumber, int pageSize)
+        {
+
+            // Cria uma lista de feriados com o ano especificado
+            var holidays = _fixedHolidays.Select(h => new Holiday
+             {
+               Name = h.Name,
+               Date = new DateTime(year, h.Date.Month, h.Date.Day)
+             }).ToList();
+
+             // Adiciona feriados móveis
+             holidays.Add(new Holiday { Name = "Páscoa", Date = GetEaster(year) });
+             holidays.Add(new Holiday { Name = "Sexta-feira Santa", Date = GetEaster(year).AddDays(-2) });
+             holidays.Add(new Holiday { Name = "Carnaval", Date = GetEaster(year).AddDays(-47) });
+             holidays.Add(new Holiday { Name = "Corpus Christi", Date = GetEaster(year).AddDays(60) });
+
+             
+             return holidays.OrderBy(h => h.Date)
+                               .Skip((pageNumber - 1) * pageSize)
+                               .Take(pageSize);
+
         }
     }
 }
